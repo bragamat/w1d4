@@ -1,6 +1,6 @@
 function findWaldo(arr, found) {
 var num = 0;
-  arr.forEach(function lookForWal(index){
+  arr.forEach(function (index){
     num += 1;
     if (index === "Waldo") {
      found(num-1);
