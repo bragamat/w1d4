@@ -20,3 +20,5 @@ var sorting = students.sort(function (a,b) {
     return 1;
    }
 });
+
+console.log(sorting);

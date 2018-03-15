@@ -1,4 +1,5 @@
 var words = ["ground", "control", "to", "major", "tom"];
+
 var wordsLengths = words.map(i => {
   return i.length;
 });
@@ -17,3 +18,4 @@ function wordLengths(word) {
 console.log(wordsLengths);
 console.log(wordsUpper);
 console.log(wordReverse);
+
